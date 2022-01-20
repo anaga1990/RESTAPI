@@ -1,0 +1,23 @@
+{
+	"cart": {
+		"totalAmount": 61299,
+		"website": "amazon.in"
+	},
+	"ItemsMenu": [
+		{
+			"item": "dove soap",
+			"price": "150",
+			"quantity": 2
+		},
+		{
+			"item": "Windows10 OS",
+			"price": "3999",
+			"quantity": 1
+		},
+		{
+			"item": "Iphone 7Plus",
+			"price": "57000",
+			"quantity": 1
+		}
+	]
+}
