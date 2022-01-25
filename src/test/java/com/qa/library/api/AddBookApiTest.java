@@ -39,14 +39,16 @@ public class AddBookApiTest {
 		System.out.println("######################################################################################");
 		JsonPath json = new JsonPath(addBookResponse);
 		String addedBookReferenceId = json.get("ID");
+		System.out.println("######################################################################################");
 		System.out.println(addedBookReferenceId);
+		System.out.println("############################ FINISHED ###############################");
 	}
 
 	@DataProvider(name ="addbookDataProvider")
 	public Object[][] addBookData() {
-		Object[][] bookData = new Object[][] { { "Selenium for web", "101123dfrf" }, { "RestAssured for Api", "123esdfx" },
-				{ "TestNg for Testing", "123hjasxs" }, { "JAVA 8 ", "102sdnx" }, { "JAVA 11", "dmp123224df" }, { "CUCUMBER 5.X", "3ghs3" },
-				{ "SOAPUI 5.6X", "234csy" } };
+		Object[][] bookData = new Object[][] { { "Selenium for web", "1000" }, { "RestAssured for Api", "1001" },
+				{ "TestNg for Testing", "1002" }, { "JAVA 8 ", "1003" }, { "JAVA 11", "1004" }, { "CUCUMBER 5.X", "1005" },
+				{ "SOAPUI 5.6X", "1006" } };
 
 		return bookData;
 	}

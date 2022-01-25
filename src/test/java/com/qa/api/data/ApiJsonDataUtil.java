@@ -12,7 +12,7 @@ public class ApiJsonDataUtil {
 				+ "  \"name\": \""+name+"\",\r\n"
 				+ "  \"isbn\": \"test\",\r\n"
 				+ "  \"aisle\": \""+aisle+"\",\r\n"
-				+ "  \"author\": \"Annabathina Nagarjuna\"\r\n"
+				+ "  \"author\": \"Lakshmi Koya\"\r\n"
 				+ "}";
 		return jsonData;
 	}
